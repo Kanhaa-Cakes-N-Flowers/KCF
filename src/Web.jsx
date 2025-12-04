@@ -159,7 +159,9 @@ const Web = () => {
     return (
         <>
             <Navbar switchPage={switchPage} activePage={activePage} wishlist={wishlist} cart={cart} homeSectionActive={homeSectionActive} />
-
+            <div className="not-for-laptop">
+                It's recommended to use your mobile phone. This website is not optimised to run on Laptop or Computer.
+            </div>
             <Routes>
                 <Route path="/" element={
                     <Homepage

@@ -36,10 +36,9 @@ const Cataloguepage = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,setSe
 
     return(
         <div className="catalogue-page">
-            <div className="catalogue-head">
+            {/* <div className="catalogue-head">
                 You Can Browse your catalogue here with filters of your choice
-                and Order it using order on whatsapp button
-            </div>
+            </div> */}
             <div className="catalogue-display-container">
                 <div className="catalogue-display-head">
                     <div className={`display-tabs + ${activeSection === "cakes" ?"display-tabs-act":""}`}onClick={() => handleSectionClick("cakes")}> Cakes</div>
