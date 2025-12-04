@@ -72,7 +72,6 @@ const ItemDiscription = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,sel
                         <div className='added-to-cart' onClick={() => toggleCart(selectedItem.itemId)}> Added to Cart </div>):(
                         <div className='add-to-cart'onClick={() => toggleCart(selectedItem.itemId,selectedWeight)}> Add to Cart </div>)}
                 </div>
-                <div className='order-on-whatsapp'> Order On WhatsApp </div>
             </div>
 
             

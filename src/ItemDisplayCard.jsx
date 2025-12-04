@@ -27,7 +27,7 @@ const ItemDisplayCard = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,set
             {cart.some((list) => list.itemId ===cake.itemId) ? (
                 <div className='added-to-cart' onClick={() => toggleCart(cake.itemId,0.5)}> Added to Cart </div>):(
                 <div className='add-to-cart'onClick={() => toggleCart(cake.itemId,weights[0])}> Add to Cart </div>)}
-            <div className='order-on-whatsapp'> Order On WhatsApp </div>
+            
         </div>
         );
     }
@@ -44,7 +44,7 @@ const ItemDisplayCard = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,set
             {cart.some((list) => list.itemId ===flower.itemId) ? (
                 <div className='added-to-cart' onClick={() => toggleCart(flower.itemId)}> Added to Cart </div>):(
                 <div className='add-to-cart'onClick={() => toggleCart(flower.itemId)}> Add to Cart </div>)}
-            <div className='order-on-whatsapp'> Order On WhatsApp </div>
+            
         </div>
         );
     }
@@ -61,7 +61,7 @@ const ItemDisplayCard = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,set
             {cart.some((list) => list.itemId ===addon.itemId) ? (
                 <div className='added-to-cart' onClick={() => toggleCart(addon.itemId)}> Added to Cart </div>):(
                 <div className='add-to-cart'onClick={() => toggleCart(addon.itemId)}> Add to Cart </div>)}
-            <div className='order-on-whatsapp'> Order On WhatsApp </div>
+            
         </div>
         );
     }
