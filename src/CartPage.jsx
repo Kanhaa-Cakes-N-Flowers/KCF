@@ -401,8 +401,14 @@ const CartPage = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,updateCart
                 doc.text(messageLines, marginX, y);
             }
 
-            // Save PDF
+            // Save PDF and also try to open it in a new tab
             doc.save('kanhaa-cakes-order.pdf');
+            try {
+                const pdfUrl = doc.output('bloburl');
+                window.open(pdfUrl, '_blank');
+            } catch (e) {
+                console.warn('Unable to auto-open PDF, only downloaded:', e);
+            }
         } catch (error) {
             console.error('Failed to generate PDF:', error);
         }

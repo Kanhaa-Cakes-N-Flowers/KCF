@@ -1,5 +1,6 @@
 import Logo from "./Images/Logo/Kanhaa Cake N Flowers Logo.png";
 import wishicon from "./Images/Icons/WishlistIcon.png";
+import WhatsappLogo from "./Images/Icons/Whatsapp Logo.png";
 import { useState, useEffect } from 'react';
 
 const Navbar = ({switchPage,activePage,wishlist,cart,homeSectionActive}) => {
@@ -43,8 +44,9 @@ const Navbar = ({switchPage,activePage,wishlist,cart,homeSectionActive}) => {
                 </div>
             </div>
             <div className="nav-bottom">
-                <div className="social-media">
-
+            <div className="social-media" onClick={() => {window.open("https://wa.me/7992419378/", "_blank"); }}
+            >
+                        <span><img src={WhatsappLogo} alt="WA"></img></span>+91 7992919347
                 </div>
                 <div className="page-links">
                     <div className={`wishlist-link ${activePage === "wishlist" ? "active-link" : ""} ${wishlistAnimation ? "animate-glow" : ""}`} onClick={()=> switchPage("wishlist")}>
