@@ -36,9 +36,9 @@ const FlowerCatalogue = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,set
             else { localStorage.removeItem("FlowerColour");}
     }, [filterType, filterArrangement, filterColour]);
 
-    const TypeOption = ["Rose","Carnation","Orchid","Lily"];
-    const ArrangementOption = ["Single Flower","6-12bunch","Basket"];
-    const ColourOption = ["Yellow","Red","Blue","White","Purple","Mix"]
+    const TypeOption = ["Rose","Carnation","Orchid"];
+    const ArrangementOption = ["1-5Bunch","6-12Bunch","15+Bunch","Basket"];
+    const ColourOption = ["Yellow","Red","Blue","White","Pink","Mix"]
 
     const handleFilterClick = (tabName) => {
         if (activeTab === tabName){

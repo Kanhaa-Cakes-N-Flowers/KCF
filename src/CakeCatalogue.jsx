@@ -36,10 +36,14 @@ const CakeCatalogue = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,setSe
         if (filterOccasion) { localStorage.setItem("CakeOccasion", filterOccasion);} 
             else { localStorage.removeItem("CakeOccasion");}
     }, [filterFlavour, filterType, filterOccasion]);
-
-    const flavourOption = ["ButterScotch","Pineapple","Chocolate","RedVelvet","BlackForest","Rasmalai","Gulabjamun","Paan","PaaniPuri","Cheese"];
-    const typeOption = ["Normal","TwoTier","FruitCake","Pinnata","MarbleEffect","JarCake","CupCake","Designer","DryCake","HeartShape"];
-    const occasionOption = ["Birthday","Anniversary","ValentinesDay","BabyShower","Christmas","MothersDay","FathersDay","TeachersDay","ThemeCake","Kids"];
+{/* Pending task: Jar Cake all flavour need to be added */}
+{/* CK0058 CK0061remove watermark */}
+{/* CK0029 confirm flavour and name */}
+{/* Black Forest More Cake */}
+{/* Red Velvet ==? Cheese */}
+    const flavourOption = ["Vanilla","Strawberry","Blueberry","ButterScotch","Pineapple","Chocolate","RedVelvet","BlackForest","WhiteForest","Rasmalai","Gulabjamun","Paan","PaaniPuri","Cheese","MixFruit","Pista","Mango","DryCake"]; //whiteforest
+    const typeOption = ["TwoTier","Pinnata","MarbleEffect","JarCake","Designer","HeartShape"];
+    const occasionOption = ["Birthday","Anniversary","ValentinesDay","MothersDay"]; // babyshower, theme cake, kids
 
     const handleFilterClick = (tabName) => {
         if (activeTab === tabName){
@@ -133,7 +137,7 @@ const CakeCatalogue = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,setSe
                 {cakedatabase.filter(cake => {
                     const matchFlavour = filterFlavour ? cake.cakeFlavour?.includes(filterFlavour) : true;
                     const matchType = filterType ? cake.cakeType?.includes(filterType) : true;
-                    const matchOccasion = filterOccasion ? cake.occasion?.includes(filterOccasion) : true;
+                    const matchOccasion = filterOccasion ? cake.cakeOccasion?.includes(filterOccasion) : true;
                     return matchFlavour && matchType && matchOccasion;
                     })
                     .map(cake => (

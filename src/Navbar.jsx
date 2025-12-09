@@ -46,7 +46,7 @@ const Navbar = ({switchPage,activePage,wishlist,cart,homeSectionActive}) => {
             <div className="nav-bottom">
             <div className="social-media" onClick={() => {window.open("https://wa.me/7992419378/", "_blank"); }}
             >
-                        <span><img src={WhatsappLogo} alt="WA"></img></span>+91 7992919347
+                        <span><img src={WhatsappLogo} alt="WA"></img></span>+91 7992419347
                 </div>
                 <div className="page-links">
                     <div className={`wishlist-link ${activePage === "wishlist" ? "active-link" : ""} ${wishlistAnimation ? "animate-glow" : ""}`} onClick={()=> switchPage("wishlist")}>

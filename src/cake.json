@@ -1,12 +1,12 @@
 [
   {
     "itemId": "CK0001",
-    "itemName": "Strawberry Cake",
+    "itemName": "Creamy Strawberry Delight",
     "cakeFlavour": [
-      "strawberry"
+      "Strawberry","MixFruit","any"
     ],
     "cakeType": [],
-    "cakeOccasion": [],
+    "cakeOccasion": ["ValentinesDay"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
@@ -51,14 +51,14 @@
   },
   {
     "itemId": "CK0003",
-    "itemName": "Two Tier Cake",
+    "itemName": "Diagonal Rose Tier Cake",
     "cakeFlavour": [
-      "any"
+      "Vanilla","any"
     ],
     "cakeType": [
-      "twoTier"
+      "TwoTier"
     ],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Birthday"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
@@ -78,12 +78,12 @@
   },
   {
     "itemId": "CK0004",
-    "itemName": "Rose design Cake",
+    "itemName": "Pink Rose Cake",
     "cakeFlavour": [
-      "Paan","any"
+      "Strawberry","any"
     ],
-    "cakeType": [],
-    "cakeOccasion": [],
+    "cakeType": ["Designer"],
+    "cakeOccasion": ["Anniversary","ValentinesDay"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
@@ -103,12 +103,13 @@
   },
   {
     "itemId": "CK0005",
-    "itemName": "Two Layer Birthday Cake",
-    "cakeFlavour": ["any"],
+    "itemName": "Two-Tier Rosette Cake",
+    "cakeFlavour": [
+      "Vanilla","any"],
     "cakeType": [
-      "twoTier"
+      "TwoTier"
     ],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Birthday","Anniversary"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
@@ -129,11 +130,11 @@
   {
     "itemId": "CK0006",
     "itemName": "Blue Bliss Drip Cake",
-    "cakeFlavour": ["Blueberry"],
+    "cakeFlavour": ["WhiteForest","any"],
     "cakeType": [
-      "designer"
+      "Designer"
     ],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Birthday"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
@@ -155,10 +156,10 @@
     "itemId": "CK0007",
     "itemName": "Blueberry Cake",
     "cakeFlavour": [
-      "blueberry"
+      "Blueberry"
     ],
     "cakeType": [],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Anniversary"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
@@ -178,15 +179,15 @@
   },
   {
     "itemId": "CK0008",
-    "itemName": "Kitkat Cake",
+    "itemName": "Kitkat Chocolate Cake",
     "cakeFlavour": [
-      "Chocolate","Vanilla",
+      "Chocolate",
       "any"
     ],
     "cakeType": [
-      "kitkatCake"
+      
     ],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Birthday","Anniversary","Christmas","ValentinesDay"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
@@ -206,12 +207,12 @@
   },
   {
     "itemId": "CK0009",
-    "itemName": "",
-    "cakeFlavour": [],
+    "itemName": "Paani Puri Cake",
+    "cakeFlavour": ["PaaniPuri"],
     "cakeType": [
-      "paniPuri"
+      
     ],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Birthday","Anniversary"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
@@ -233,10 +234,10 @@
     "itemId": "CK0010",
     "itemName": "Chocolate Truffle Cake",
     "cakeFlavour": [
-      "chocolate"
+      "Chocolate"
     ],
     "cakeType": [],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Anniversary","Christmas"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
@@ -256,12 +257,12 @@
   },
   {
     "itemId": "CK0011",
-    "itemName": "Red Velvet Cake",
+    "itemName": "Red Velvet Heart Cake",
     "cakeFlavour": [
       "RedVelvet"
     ],
-    "cakeType": [],
-    "cakeOccasion": [],
+    "cakeType": ["HeartShape"],
+    "cakeOccasion": ["Anniversary","ValentinesDay"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
@@ -282,9 +283,11 @@
   {
     "itemId": "CK0012",
     "itemName": "Royal Blue Elegance Cake",
-    "cakeFlavour": [],
+    "cakeFlavour": [
+      "Blueberry","any"
+    ],
     "cakeType": [],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Birthday"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
@@ -305,7 +308,7 @@
   {
     "itemId": "CK0013",
     "itemName": "Blue Marble Effect Cake",
-    "cakeFlavour": [],
+    "cakeFlavour": ["any"],
     "cakeType": [
       "MarbleEffect"
     ],
@@ -329,7 +332,7 @@
   },
   {
     "itemId": "CK0014",
-    "itemName": "",
+    "itemName": "Gulabjamun Delight Cake",
     "cakeFlavour": [
       "Gulabjamun"
     ],
@@ -359,7 +362,7 @@
       "RedVelvet"
     ],
     "cakeType": [],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Anniversary"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
@@ -379,10 +382,9 @@
   },
   {
     "itemId": "CK0016",
-    "itemName": "Mawa Cake",
-    "cakeFlavour": [],
+    "itemName": "Mawa Almond Pista Cake",
+    "cakeFlavour": ["DryCake"],
     "cakeType": [
-      "MawaDry"
     ],
     "cakeOccasion": [],
     "cakeTags": [],
@@ -404,21 +406,21 @@
   },
   {
     "itemId": "CK0017",
-    "itemName": "Chocolate with Butterscotch Cake",
+    "itemName": "Chocolate & Butterscotch Cake",
     "cakeFlavour": [
       "Chocolate",
       "ButterScotch"
     ],
     "cakeType": [],
-    "cakeOccasion": [],
+    "cakeOccasion": ["ValentinesDay"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 700,
+      "1": 1200,
+      "1.5": 1800,
+      "2": 2300,
+      "3": 3450
     },
     "discountPrice": {
       "0.5": 550,
@@ -432,18 +434,20 @@
     "itemId": "CK0018",
     "itemName": "Pearl Blossom Cake",
     "cakeFlavour": [
-      "Any"
+      "Vanilla","any"
     ],
-    "cakeType": [],
-    "cakeOccasion": [],
+    "cakeType": [
+      "Designer"
+    ],
+    "cakeOccasion": ["Anniversary"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 700,
+      "1": 1250,
+      "1.5": 1825,
+      "2": 2500,
+      "3": 3500
     },
     "discountPrice": {
       "0.5": 550,
@@ -457,21 +461,20 @@
     "itemId": "CK0019",
     "itemName": "Floral Frost Cake",
     "cakeFlavour": [
-      "Any"
+      "WhiteForest","Vanilla","any"
     ],
-    "cakeType": [],
+    "cakeType": ["Designer"],
     "cakeOccasion": [
-      "Birthday",
-      "Any"
+      "Birthday","Anniversary","ValentinesDay"
     ],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 675,
+      "1": 1250,
+      "1.5": 1850,
+      "2": 2400,
+      "3": 3400
     },
     "discountPrice": {
       "0.5": 550,
@@ -485,18 +488,18 @@
     "itemId": "CK0020",
     "itemName": "Purple Grace Cake",
     "cakeFlavour": [
-      "Any"
+      "Blueberry","Vanilla","any"
     ],
-    "cakeType": [],
-    "cakeOccasion": [],
+    "cakeType": ["Designer"],
+    "cakeOccasion": ["Anniversary"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 675,
+      "1": 1250,
+      "1.5": 1850,
+      "2": 2400,
+      "3": 3400
     },
     "discountPrice": {
       "0.5": 550,
@@ -509,15 +512,15 @@
   {
     "itemId": "CK0021",
     "itemName": "Golden Sky Cake",
-    "cakeFlavour": [],
-    "cakeType": [],
-    "cakeOccasion": [],
+    "cakeFlavour": ["Blueberry","any"],
+    "cakeType": ["Designer"],
+    "cakeOccasion": ["Birthday"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
       "0.5": null,
-      "1": 1560,
-      "1.5": 2250,
+      "1": 1400,
+      "1.5": 2100,
       "2": null,
       "3": null
     },
@@ -532,17 +535,19 @@
   {
     "itemId": "CK0022",
     "itemName": "White Forest Cake",
-    "cakeFlavour": [],
-    "cakeType": [],
-    "cakeOccasion": [],
+    "cakeFlavour": [
+      "WhiteForest","any"
+    ],
+    "cakeType": ["Designer"],
+    "cakeOccasion": ["Birthday"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 775,
+      "1": 1400,
+      "1.5": 2050,
+      "2": 2500,
+      "3": 3600
     },
     "discountPrice": {
       "0.5": 625,
@@ -555,19 +560,18 @@
   {
     "itemId": "CK0023",
     "itemName": "Doremon Cake",
-    "cakeFlavour": [],
+    "cakeFlavour": ["any"],
     "cakeType": [
-      "Cartoon"
     ],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Birthday"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 700,
+      "1": 1250,
+      "1.5": 1850,
+      "2": 2400,
+      "3": 3400
     },
     "discountPrice": {
       "0.5": 575,
@@ -580,19 +584,21 @@
   {
     "itemId": "CK0024",
     "itemName": "Pink Floral Cake",
-    "cakeFlavour": [],
+    "cakeFlavour": [
+      "Strawberry","any"
+    ],
     "cakeType": [
       "Designer"
     ],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Anniversary","ValentinesDay"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 900,
+      "1": 1650,
+      "1.5": 2300,
+      "2": 3000,
+      "3": 4300
     },
     "discountPrice": {
       "0.5": 725,
@@ -604,22 +610,22 @@
   },
   {
     "itemId": "CK0025",
-    "itemName": "Black Forest Chocolate Dripping Cake",
+    "itemName": "Tier Chocolate Dripping Cake",
     "cakeFlavour": [
       "Chocolate","BlackForest"
     ],
     "cakeType": [
       "TwoTier"
     ],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Birthday"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
       "0.5": null,
       "1": null,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "1.5": 2200,
+      "2": 2800,
+      "3": 4000
     },
     "discountPrice": {
       "0.5": null,
@@ -631,23 +637,23 @@
   },
   {
     "itemId": "CK0026",
-    "itemName": "Fresh Mango Cake",
+    "itemName": "Fresh Yellow Tier Cake",
     "cakeFlavour": [
-      "ButterScotch",
-      "Any"
+      "ButterScotch","Pineapple","Mango",
+      "any"
     ],
     "cakeType": [
       "TwoTier"
     ],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Birthday"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": null,
+      "1": null,
+      "1.5": 2250,
+      "2": 2900,
+      "3": 4000
     },
     "discountPrice": {
       "0.5": null,
@@ -659,18 +665,18 @@
   },
   {
     "itemId": "CK0027",
-    "itemName": "",
-    "cakeFlavour": [],
+    "itemName": "Snowdrift Cherry Cake",
+    "cakeFlavour": ["WhiteForest"],
     "cakeType": [],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 600,
+      "1": 1100,
+      "1.5": 1550,
+      "2": 2050,
+      "3": 2900
     },
     "discountPrice": {
       "0.5": 475,
@@ -682,18 +688,20 @@
   },
   {
     "itemId": "CK0028",
-    "itemName": "",
-    "cakeFlavour": [],
+    "itemName": "White Forest Cherry Cake",
+    "cakeFlavour": [
+      "WhiteForest"
+    ],
     "cakeType": [],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Birthday"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 675,
+      "1": 1250,
+      "1.5": 1850,
+      "2": 2400,
+      "3": 3600
     },
     "discountPrice": {
       "0.5": 550,
@@ -705,20 +713,20 @@
   },
   {
     "itemId": "CK0029",
-    "itemName": "",
+    "itemName": "Pineapple White Forest Cake",
     "cakeFlavour": [
-      "Pineapple"
+      "WhiteForest","Pineapple"
     ],
     "cakeType": [],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 700,
+      "1": 1300,
+      "1.5": 1950,
+      "2": 3600,
+      "3": 3500
     },
     "discountPrice": {
       "0.5": 575,
@@ -730,20 +738,20 @@
   },
   {
     "itemId": "CK0030",
-    "itemName": "",
+    "itemName": "Sunshine Choco Stripe",
     "cakeFlavour": [
-      "Pineapple"
+      "Pineapple","ButterScotch","any"
     ],
     "cakeType": [],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 675,
+      "1": 1250,
+      "1.5": 1850,
+      "2": 2400,
+      "3": 3600
     },
     "discountPrice": {
       "0.5": 550,
@@ -755,20 +763,20 @@
   },
   {
     "itemId": "CK0031",
-    "itemName": "",
+    "itemName": "Paan Flavour Cake",
     "cakeFlavour": [
       "Paan"
     ],
     "cakeType": [],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Birthday"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 925,
+      "1": 1700,
+      "1.5": 2500,
+      "2": 3250,
+      "3": 4500
     },
     "discountPrice": {
       "0.5": 750,
@@ -780,20 +788,20 @@
   },
   {
     "itemId": "CK0032",
-    "itemName": "",
+    "itemName": "Cherry Paan Delight",
     "cakeFlavour": [
       "Paan"
     ],
-    "cakeType": [],
-    "cakeOccasion": [],
+    "cakeType": ["Designer"],
+    "cakeOccasion": ["Birthday"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 850,
+      "1": 1550,
+      "1.5": 2100,
+      "2": 2650,
+      "3": 3850
     },
     "discountPrice": {
       "0.5": 700,
@@ -817,11 +825,11 @@
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 425,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     },
     "discountPrice": {
       "0.5": 350,
@@ -833,7 +841,7 @@
   },
   {
     "itemId": "CK0034",
-    "itemName": "",
+    "itemName": "Gulabjamun Cake",
     "cakeFlavour": [
       "Gulabjamun"
     ],
@@ -842,11 +850,11 @@
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 1000,
+      "1": 1800,
+      "1.5": 2500,
+      "2": 3250,
+      "3": null
     },
     "discountPrice": {
       "0.5": 825,
@@ -858,22 +866,22 @@
   },
   {
     "itemId": "CK0035",
-    "itemName": "",
+    "itemName": "Mix Fruit Cake",
     "cakeFlavour": [
-      "Any"
+      "MixFruit","Strawberry"
     ],
     "cakeType": [
-      "FruitCake"
+      
     ],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 900,
+      "1": 1700,
+      "1.5": 2400,
+      "2": 3050,
+      "3": 4500
     },
     "discountPrice": {
       "0.5": 725,
@@ -885,23 +893,23 @@
   },
   {
     "itemId": "CK0036",
-    "itemName": "",
+    "itemName": "Pinnata Cake",
     "cakeFlavour": [
       "Chocolate",
-      "Any"
+      "any"
     ],
     "cakeType": [
-      "PinnataCake"
+      "Pinnata"
     ],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Anniversary","ValentinesDay"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": null,
+      "1": 1150,
+      "1.5": null,
+      "2": null,
+      "3": null
     },
     "discountPrice": {
       "0.5": null,
@@ -913,21 +921,23 @@
   },
   {
     "itemId": "CK0037",
-    "itemName": "",
-    "cakeFlavour": [],
-    "cakeType": [],
+    "itemName": "White Romance Cake",
+    "cakeFlavour": [
+      "Vanilla","Strawberry","any"
+    ],
+    "cakeType": ["Designer"],
     "cakeOccasion": [
       "Anniversary",
-      "Love"
+      "ValentinesDay"
     ],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 825,
+      "1": 1550,
+      "1.5": 2250,
+      "2": 2950,
+      "3": 4200
     },
     "discountPrice": {
       "0.5": 675,
@@ -939,21 +949,23 @@
   },
   {
     "itemId": "CK0038",
-    "itemName": "",
-    "cakeFlavour": [],
+    "itemName": "White Romance Cake",
+    "cakeFlavour": [
+      "Vanilla","any"
+    ],
     "cakeType": [],
     "cakeOccasion": [
       "Anniversary",
-      "Love"
+      "ValentinesDay"
     ],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 900,
+      "1": 1600,
+      "1.5": 2400,
+      "2": 3000,
+      "3": 4100
     },
     "discountPrice": {
       "0.5": 725,
@@ -965,21 +977,23 @@
   },
   {
     "itemId": "CK0039",
-    "itemName": "",
-    "cakeFlavour": [],
+    "itemName": "White Romance Cake",
+    "cakeFlavour": [
+      "Strawberry","any"
+    ],
     "cakeType": [],
     "cakeOccasion": [
       "Anniversary",
-      "Love"
+      "ValentinesDay"
     ],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 625,
-      "1": 1150,
-      "1.5": 1625,
-      "2": 2125,
-      "3": 1500
+      "0.5": 775,
+      "1": 1400,
+      "1.5": 2000,
+      "2": 2600,
+      "3": 2700
     },
     "discountPrice": {
       "0.5": 625,
@@ -991,7 +1005,7 @@
   },
   {
     "itemId": "CK0040",
-    "itemName": "",
+    "itemName": "Chocolate Basket Weave Cake",
     "cakeFlavour": [
       "Chocolate"
     ],
@@ -1000,11 +1014,11 @@
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 1050,
+      "1": 1900,
+      "1.5": 2800,
+      "2": 3600,
+      "3": 5300
     },
     "discountPrice": {
       "0.5": 850,
@@ -1016,7 +1030,7 @@
   },
   {
     "itemId": "CK0041",
-    "itemName": "",
+    "itemName": "Choco Chip Cake",
     "cakeFlavour": [
       "Chocolate"
     ],
@@ -1025,11 +1039,11 @@
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 1000,
+      "1": 1800,
+      "1.5": 2500,
+      "2": 3100,
+      "3": 5300
     },
     "discountPrice": {
       "0.5": 800,
@@ -1041,18 +1055,20 @@
   },
   {
     "itemId": "CK0042",
-    "itemName": "",
-    "cakeFlavour": [],
+    "itemName": "Chocolate Chip Cake",
+    "cakeFlavour": [
+      "Chocolate"
+    ],
     "cakeType": [],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 1000,
+      "1": 1850,
+      "1.5": 2650,
+      "2": 3050,
+      "3": 5150
     },
     "discountPrice": {
       "0.5": 825,
@@ -1064,22 +1080,21 @@
   },
   {
     "itemId": "CK0043",
-    "itemName": "",
+    "itemName": "Chocolate Truffle Oreo Cake",
     "cakeFlavour": [
       "Chocolate"
     ],
     "cakeType": [
-      "Truffel"
     ],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Anniversary"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
       "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "1": 1400,
+      "1.5": 2000,
+      "2": 2550,
+      "3": 3750
     },
     "discountPrice": {
       "0.5": 650,
@@ -1091,21 +1106,19 @@
   },
   {
     "itemId": "CK0044",
-    "itemName": "",
-    "cakeFlavour": [],
+    "itemName": "Almond Mawa Cake",
+    "cakeFlavour": ["DryCake"],
     "cakeType": [
-      "Mawa",
-      "Dry"
     ],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 650,
+      "1": 1150,
+      "1.5": 1650,
+      "2": 2150,
+      "3": 3100
     },
     "discountPrice": {
       "0.5": 525,
@@ -1117,20 +1130,21 @@
   },
   {
     "itemId": "CK0045",
-    "itemName": "",
-    "cakeFlavour": [],
+    "itemName": "Mix Fruit Cake",
+    "cakeFlavour": [
+      "MixFruit","Strawberry"
+    ],
     "cakeType": [
-      "FruitCake"
     ],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
       "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "1": 1550,
+      "1.5": 2150,
+      "2": 2750,
+      "3": 3650
     },
     "discountPrice": {
       "0.5": 650,
@@ -1142,21 +1156,19 @@
   },
   {
     "itemId": "CK0046",
-    "itemName": "",
-    "cakeFlavour": [],
+    "itemName": "Tooty Frooty Cake",
+    "cakeFlavour": ["DryCake"],
     "cakeType": [
-      "Mawa",
-      "Dry"
     ],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 550,
+      "1": 1050,
+      "1.5": 1450,
+      "2": 1850,
+      "3": 2800
     },
     "discountPrice": {
       "0.5": 450,
@@ -1168,20 +1180,20 @@
   },
   {
     "itemId": "CK0047",
-    "itemName": "",
+    "itemName": "Cherry White Chocolate Cake",
     "cakeFlavour": [
-      "Pineapple"
+      "Vanilla","WhiteForest","any"
     ],
     "cakeType": [],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 550,
+      "1": 1050,
+      "1.5": 1450,
+      "2": 1850,
+      "3": 2800
     },
     "discountPrice": {
       "0.5": 450,
@@ -1193,21 +1205,21 @@
   },
   {
     "itemId": "CK0048",
-    "itemName": "",
+    "itemName": "Pista Chocolate Cake",
     "cakeFlavour": [
       "Pista",
       "Chocolate"
     ],
     "cakeType": [],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Anniversary"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 925,
+      "1": 1700,
+      "1.5": 2400,
+      "2": 3150,
+      "3": 4400
     },
     "discountPrice": {
       "0.5": 750,
@@ -1219,20 +1231,20 @@
   },
   {
     "itemId": "CK0049",
-    "itemName": "",
+    "itemName": "Mango White Cake",
     "cakeFlavour": [
       "Mango"
     ],
     "cakeType": [],
-    "cakeOccasion": [],
+    "cakeOccasion": ["MothersDay"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 700,
+      "1": 1300,
+      "1.5": 1950,
+      "2": 3600,
+      "3": 3500
     },
     "discountPrice": {
       "0.5": 575,
@@ -1244,7 +1256,7 @@
   },
   {
     "itemId": "CK0050",
-    "itemName": "",
+    "itemName": "Mango Layered Drip Cake",
     "cakeFlavour": [
       "Mango"
     ],
@@ -1254,10 +1266,10 @@
     "whatsappUrl": "",
     "cakePrice": {
       "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "1": 1400,
+      "1.5": 2050,
+      "2": 2650,
+      "3": 3600
     },
     "discountPrice": {
       "0.5": 650,
@@ -1269,20 +1281,20 @@
   },
   {
     "itemId": "CK0051",
-    "itemName": "",
+    "itemName": "Rasmalai Cake",
     "cakeFlavour": [
       "Rasmalai"
     ],
     "cakeType": [],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Birthday"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
       "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "1": 1400,
+      "1.5": 2050,
+      "2": 2750,
+      "3": 4000
     },
     "discountPrice": {
       "0.5": 650,
@@ -1294,7 +1306,7 @@
   },
   {
     "itemId": "CK0052",
-    "itemName": "",
+    "itemName": "Dark Chocolate Cake",
     "cakeFlavour": [
       "Chocolate"
     ],
@@ -1303,11 +1315,11 @@
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 600,
+      "1": 1100,
+      "1.5": 1550,
+      "2": 2100,
+      "3": 3100
     },
     "discountPrice": {
       "0.5": 475,
@@ -1319,22 +1331,21 @@
   },
   {
     "itemId": "CK0053",
-    "itemName": "",
+    "itemName": "Chocolate Ganache Cake",
     "cakeFlavour": [
       "Chocolate"
     ],
     "cakeType": [
-      "Truffel"
     ],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 475,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 600,
+      "1": 1100,
+      "1.5": 1550,
+      "2": 2100,
+      "3": 3100
     },
     "discountPrice": {
       "0.5": 475,
@@ -1346,7 +1357,7 @@
   },
   {
     "itemId": "CK0054",
-    "itemName": "",
+    "itemName": "Chocolate Nut Drizzle Cake",
     "cakeFlavour": [
       "Chocolate"
     ],
@@ -1355,11 +1366,11 @@
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 650,
+      "1": 1150,
+      "1.5": 1700,
+      "2": 2250,
+      "3": 3350
     },
     "discountPrice": {
       "0.5": 525,
@@ -1371,20 +1382,20 @@
   },
   {
     "itemId": "CK0055",
-    "itemName": "",
+    "itemName": "Paani Puri Cake",
     "cakeFlavour": [
-      "PaniPuri"
+      "PaaniPuri"
     ],
     "cakeType": [],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 625,
+      "1": 1150,
+      "1.5": 1650,
+      "2": null,
+      "3": null
     },
     "discountPrice": {
       "0.5": 500,
@@ -1407,11 +1418,11 @@
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 425,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     },
     "discountPrice": {
       "0.5": 350,
@@ -1423,22 +1434,22 @@
   },
   {
     "itemId": "CK0057",
-    "itemName": "",
+    "itemName": "White Chocolate Pinnata Cake",
     "cakeFlavour": [
-      "WhiteChocolate"
+      "Vanilla","any"
     ],
     "cakeType": [
-      "PinnataCake"
+      "Pinnata"
     ],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Anniversary","ValentinesDay"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": null,
+      "1": 1150,
+      "1.5": null,
+      "2": null,
+      "3": null
     },
     "discountPrice": {
       "0.5": null,
@@ -1450,9 +1461,9 @@
   },
   {
     "itemId": "CK0058",
-    "itemName": "",
+    "itemName": "Mango with Pineapple Cake",
     "cakeFlavour": [
-      "Pineapple"
+      "Pineapple","Mango"
     ],
     "cakeType": [],
     "cakeOccasion": [],
@@ -1475,7 +1486,7 @@
   },
   {
     "itemId": "CK0059",
-    "itemName": "",
+    "itemName": "Dark Chocolate Delight",
     "cakeFlavour": [
       "Chocolate"
     ],
@@ -1484,11 +1495,11 @@
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 600,
+      "1": 1000,
+      "1.5": 1400,
+      "2": 1750,
+      "3": 2550
     },
     "discountPrice": {
       "0.5": 485,
@@ -1500,7 +1511,7 @@
   },
   {
     "itemId": "CK0060",
-    "itemName": "",
+    "itemName": "Rasmalai Drip Cake",
     "cakeFlavour": [
       "Rasmalai"
     ],
@@ -1509,11 +1520,11 @@
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 825,
+      "1": 1400,
+      "1.5": 1950,
+      "2": 2500,
+      "3": 3350
     },
     "discountPrice": {
       "0.5": 675,
@@ -1525,20 +1536,20 @@
   },
   {
     "itemId": "CK0061",
-    "itemName": "",
+    "itemName": "Kesar Pista Rasmalai Cake",
     "cakeFlavour": [
-      "Rasmalai"
+      "Rasmalai","Pista"
     ],
     "cakeType": [],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": null,
+      "1": 1550,
+      "1.5": 2250,
+      "2": 2850,
+      "3": 4100
     },
     "discountPrice": {
       "0.5": null,
@@ -1557,15 +1568,15 @@
     "cakeType": [
       "JarCake"
     ],
-    "cakeOccasion": [],
+    "cakeOccasion": ["ValentinesDay"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 450,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     },
     "discountPrice": {
       "0.5": 375,
@@ -1577,18 +1588,22 @@
   },
   {
     "itemId": "CK0063",
-    "itemName": "",
-    "cakeFlavour": [],
-    "cakeType": [],
-    "cakeOccasion": [],
+    "itemName": "Colourful Marble Effect Cake",
+    "cakeFlavour": [
+      "any"
+    ],
+    "cakeType": [
+      "MarbleEffect"
+    ],
+    "cakeOccasion": ["Anniversary"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 650,
+      "1": 1100,
+      "1.5": 1500,
+      "2": 2050,
+      "3": 2750
     },
     "discountPrice": {
       "0.5": 525,
@@ -1600,9 +1615,9 @@
   },
   {
     "itemId": "CK0064",
-    "itemName": "Chocolate Jar Cake Pack of 2",
+    "itemName": "Black Forest Jar Cake Pack of 2",
     "cakeFlavour": [
-      "Chocolate"
+      "BlackForest"
     ],
     "cakeType": [
       "JarCake"
@@ -1611,11 +1626,11 @@
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 425,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     },
     "discountPrice": {
       "0.5": 350,
@@ -1627,18 +1642,20 @@
   },
   {
     "itemId": "CK0065",
-    "itemName": "",
-    "cakeFlavour": [],
+    "itemName": "Butter Scotch Chocolate Strip Cake",
+    "cakeFlavour": [
+      "ButterScotch"
+    ],
     "cakeType": [],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 575,
+      "1": 1050,
+      "1.5": 1500,
+      "2": 2050,
+      "3": 2900
     },
     "discountPrice": {
       "0.5": 465,
@@ -1650,22 +1667,21 @@
   },
   {
     "itemId": "CK0066",
-    "itemName": "",
+    "itemName": "Chocolate Truffle Cake",
     "cakeFlavour": [
       "Chocolate"
     ],
     "cakeType": [
-      "Truffel"
     ],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 550,
+      "1": 1000,
+      "1.5": 1450,
+      "2": 1900,
+      "3": 2800
     },
     "discountPrice": {
       "0.5": 450,
@@ -1677,20 +1693,19 @@
   },
   {
     "itemId": "CK0067",
-    "itemName": "",
-    "cakeFlavour": [],
+    "itemName": "Dryfruit Cake",
+    "cakeFlavour": ["DryCake"],
     "cakeType": [
-      "Dry"
     ],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
+      "0.5": 525,
       "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "1.5": 1250,
+      "2": 1650,
+      "3": 2250
     },
     "discountPrice": {
       "0.5": 425,
@@ -1702,23 +1717,25 @@
   },
   {
     "itemId": "CK0068",
-    "itemName": "Not Available",
-    "cakeFlavour": [],
+    "itemName": "Biscoff Cheese Cake Pack of 2",
+    "cakeFlavour": [
+      "Cheese"
+    ],
     "cakeType": [
-      "Biscoff"
+      "JarCake"
     ],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 500,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     },
     "discountPrice": {
-      "0.5": null,
+      "0.5": 340,
       "1": null,
       "1.5": null,
       "2": null,
@@ -1727,97 +1744,104 @@
   },
   {
     "itemId": "CK0069",
-    "itemName": "Not Available",
+    "itemName": "Pista Cheese Cake Pack of 2",
     "cakeFlavour": [
-      "Pista"
+      "Pista","Cheese"
     ],
-    "cakeType": [],
+    "cakeType": [
+      "JarCake"
+    ],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 550,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     },
     "discountPrice": {
-      "0.5": 700,
-      "1": 800,
-      "1.5": 1000,
-      "2": 1200,
-      "3": 1400
+      "0.5": 400,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     }
   },
   {
     "itemId": "CK0070",
-    "itemName": "Not Available",
+    "itemName": "Blueberry Cheese Cake Pack of 2",
     "cakeFlavour": [
       "Blueberry",
       "Cheese"
     ],
-    "cakeType": [],
+    "cakeType": [
+      "JarCake"
+    ],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 525,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     },
     "discountPrice": {
-      "0.5": 700,
-      "1": 800,
-      "1.5": 1000,
-      "2": 1200,
-      "3": 1400
+      "0.5": 380,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     }
   },
   {
     "itemId": "CK0071",
-    "itemName": "Not Available",
+    "itemName": "Mango Cheese Cake Pack of 2",
     "cakeFlavour": [
-      "Corn"
+      "Mango","Cheese"
     ],
-    "cakeType": [],
+    "cakeType": [
+      "JarCake"
+    ],
     "cakeOccasion": [],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 450,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     },
     "discountPrice": {
-      "0.5": 700,
-      "1": 800,
-      "1.5": 1000,
-      "2": 1200,
-      "3": 1400
+      "0.5": 320,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     }
   },
   {
     "itemId": "CK0072",
-    "itemName": "",
-    "cakeFlavour": [],
+    "itemName": "Tier Mawa Cake",
+    "cakeFlavour": [
+      "DryCake"
+    ],
     "cakeType": [
-      "Dry",
       "TwoTier"
     ],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Anniversary","ValentinesDay"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": null,
+      "1": null,
+      "1.5": 1650,
+      "2": null,
+      "3": 3000
     },
     "discountPrice": {
       "0.5": null,
@@ -1829,18 +1853,22 @@
   },
   {
     "itemId": "CK0073",
-    "itemName": "",
-    "cakeFlavour": [],
+    "itemName": "Red Rose Cake",
+    "cakeFlavour": [
+        "any"
+    ],
     "cakeType": [],
-    "cakeOccasion": [],
+    "cakeOccasion": [
+      "ValentinesDay","Anniversary"
+    ],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
       "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "1": 1400,
+      "1.5": 1950,
+      "2": 2500,
+      "3": 3500
     },
     "discountPrice": {
       "0.5": 650,
@@ -1852,34 +1880,34 @@
   },
   {
     "itemId": "CK0074",
-    "itemName": "Not Available",
+    "itemName": "Strawberry Cheese Cake Pack of 2",
     "cakeFlavour": [
-      "Strawberry"
+      "Strawberry","Cheese"
     ],
     "cakeType": [
       "JarCake"
     ],
-    "cakeOccasion": [],
+    "cakeOccasion": ["ValentinesDay"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 450,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     },
     "discountPrice": {
-      "0.5": 700,
-      "1": 800,
-      "1.5": 1000,
-      "2": 1200,
-      "3": 1400
+      "0.5": 300,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     }
   },
   {
     "itemId": "CK0075",
-    "itemName": "Not Available",
+    "itemName": "Blueberry Cheese Jar Cake Pack of 2",
     "cakeFlavour": [
       "Blueberry",
       "Cheese"
@@ -1891,23 +1919,23 @@
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 450,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     },
     "discountPrice": {
-      "0.5": 700,
-      "1": 800,
-      "1.5": 1000,
-      "2": 1200,
-      "3": 1400
+      "0.5": 280,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     }
   },
   {
     "itemId": "CK0076",
-    "itemName": "Not Available",
+    "itemName": "Biscoff Cheese Cake Pack of 2",
     "cakeFlavour": [],
     "cakeType": [
       "JarCake"
@@ -1916,24 +1944,26 @@
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 500,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     },
     "discountPrice": {
-      "0.5": 700,
-      "1": 800,
-      "1.5": 1000,
-      "2": 1200,
-      "3": 1400
+      "0.5": 320,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     }
   },
   {
     "itemId": "CK0077",
-    "itemName": "Not Available",
-    "cakeFlavour": [],
+    "itemName": "Nutella Cheese Cake Pack of 2",
+    "cakeFlavour": [
+      "Chocolate"
+    ],
     "cakeType": [
       "JarCake"
     ],
@@ -1941,36 +1971,36 @@
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 500,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     },
     "discountPrice": {
-      "0.5": 700,
-      "1": 800,
-      "1.5": 1000,
-      "2": 1200,
-      "3": 1400
+      "0.5": 320,
+      "1": null,
+      "1.5": null,
+      "2": null,
+      "3": null
     }
   },
   {
     "itemId": "CK0078",
-    "itemName": "",
+    "itemName": "Chocolate Truffle Cake",
     "cakeFlavour": [
       "Chocolate"
     ],
     "cakeType": [],
-    "cakeOccasion": [],
+    "cakeOccasion": ["Birthday","MothersDay"],
     "cakeTags": [],
     "whatsappUrl": "",
     "cakePrice": {
-      "0.5": 800,
-      "1": 900,
-      "1.5": 1100,
-      "2": 1300,
-      "3": 1500
+      "0.5": 650,
+      "1": 1150,
+      "1.5": 1600,
+      "2": 2100,
+      "3": 3100
     },
     "discountPrice": {
       "0.5": 535,

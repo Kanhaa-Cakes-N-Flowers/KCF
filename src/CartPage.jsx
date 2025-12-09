@@ -16,7 +16,7 @@ import { div } from 'framer-motion/client';
 
 const CartPage = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,updateCart}) => {
     const allItems = [...cakedatabase, ...flowerdatabase, ...addonsdatabase];
-    const allCakeFlavours = ["Chocolate","Pineapple","Butter Scotch", "Vanilla", "Strawberry","Mix Fruit","Paan","Blueberry"];
+    const allCakeFlavours = ["Chocolate","Pineapple","Butter Scotch", "Vanilla", "Strawberry","Paan","Blueberry"];
     const cartItems = allItems.filter((item) => cart.some((list) => list.itemId ===item.itemId));
 
     const calculateTotal = () => {
@@ -507,8 +507,8 @@ const CartPage = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,updateCart
                     </div>
                 </div>
                         {item.itemId.startsWith("CK") && hasAnyFlavour &&
-                        <div className="cake-message-section">
-                            <label>Custom Flavour <span>(optional)</span>:</label>
+                        <div className="cake-message-section flavour-section">
+                            <label>Cake Flavour:</label>
                             <select value={customFlavor} onChange={(e) => {
                                 setCustomFlavor(e.target.value)
                                 }}
