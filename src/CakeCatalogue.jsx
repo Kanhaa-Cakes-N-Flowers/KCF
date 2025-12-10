@@ -36,9 +36,6 @@ const CakeCatalogue = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,setSe
         if (filterOccasion) { localStorage.setItem("CakeOccasion", filterOccasion);} 
             else { localStorage.removeItem("CakeOccasion");}
     }, [filterFlavour, filterType, filterOccasion]);
-{/* Pending task: Jar Cake all flavour need to be added */}
-{/* CK0058 CK0061remove watermark */}
-{/* CK0029 confirm flavour and name */}
 {/* Black Forest More Cake */}
 {/* Red Velvet ==? Cheese */}
     const flavourOption = ["Vanilla","Strawberry","Blueberry","ButterScotch","Pineapple","Chocolate","RedVelvet","BlackForest","WhiteForest","Rasmalai","Gulabjamun","Paan","PaaniPuri","Cheese","MixFruit","Pista","Mango","DryCake"]; //whiteforest

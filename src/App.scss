@@ -7,6 +7,7 @@
 
 body {
     padding-bottom: 50px;
+    overflow-x: hidden;
 }
 
 .navigation-bar {
@@ -1435,4 +1436,75 @@ body {
             object-fit:contain;
         }
     }
+}
+
+@media (min-width: 600px) {
+    .social-media{
+        // color:red !important;
+        display: flex;
+        align-items:start;
+        justify-content: start !important;
+        padding-left: 10px;
+        span {
+            width:30px !important;
+        }
+        // min-height: 0px;
+        img {
+            display: flex;
+            max-height: 30px;
+            max-width: 30px;
+            object-fit: contain;
+        }
+    }
+    .carousel-container{
+        display: none;
+        // max-width: 80vw;
+        // height: 70vh;
+        // justify-content: center;
+        // align-items: center;
+        // .carousel-wrapper{
+        //     align-items: center;
+        //     justify-content: center;
+        //     max-width: 80vw;
+        //     height: 70vh;
+        //     .img {
+        //         max-width: 80vw;
+        //         max-height: 70vh;
+        //         object-fit: contain;
+                
+        //     }
+        // }
+    }
+    .home-head{
+        max-width: 100vw;
+    }
+    .sample-display{
+        .item-card{
+            min-width: 17vw !important;
+            // width: 50vw !important;
+            img{
+                height:30vh !important;
+            }
+        }
+    }
+    .item-display-container{   
+        grid-template-columns: 18vw 18vw 18vw 18vw 18vw !important;
+    }
+    .item-discription-page{
+        flex-direction: row;
+        img{
+            max-width: 25vw;
+        }
+        .cake-weights{
+            grid-template-columns: 20vw 20vw 20vw !important;
+
+        }   
+    }
+    .item-details{
+        max-width: 50vw;
+    }
+    .qr-code-image{
+        max-width: 25vw;
+    }
+
 }
