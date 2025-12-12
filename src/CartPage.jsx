@@ -714,7 +714,7 @@ const CartPage = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,updateCart
             {/* Add state for checkboxes at the top of your component if not already present */}
             <div className='payment-qr-code'>
                 <div className='qr-code-head'>
-                    Scan and Pay: ₹{grandTotal} using QR and send us the screenshot on <a href="https://wa.me/7992419378/">Whatsapp: +91 7992419378 </a>
+                    Scan and Pay: ₹{grandTotal} using QR and send us the Screenshot on <a href="https://wa.me/7992419378/">Whatsapp: +91 7992419378 </a>
                 </div>
                 <div className='qr-code-image'>
                     <img src={qrCode} alt="Payment QR Code" />
