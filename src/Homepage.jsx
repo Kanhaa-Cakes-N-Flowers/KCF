@@ -274,7 +274,7 @@ const Homepage = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,setSelecte
                 </div>
                 <div className="about-cont">
                     ✅ <span className="about-subhead">Free Delivery – </span>Applicable only for full-time delivery slots and if your address is within 10 km radius from Bank More, Dhanbad. <br/>
-                    📅 <span className="about-subhead">Order in Advance – </span>Please place your order at least one day before your delivery date. That doesn't mean that order will be prepared in advance,it will be prepapred same day of delivery date. <br/>
+                    📅 <span className="about-subhead">Order in Advance – </span>Please place your order at least one 3hrs before your delivery time slot. However its recommended to place your order one day prior of delivery date and we assure you that your order will be prepared on delivery date, not in advance. <br/>
                     🔪 <span className="about-subhead">Complimentry – </span> Knifes, Candles, Spoon and Tissue Papers are complimentary with cake.<br/>
                     <span className="about-subhead">Product Images – </span> All cake and bouquet images displayed on our website are for illustration purposes only. The actual product may slightly vary in design, color, shape, or decoration, depending on availability and the artisan’s creativity. <br/>
                     <span className="about-subhead">Delivery Timings – </span> We strive to deliver orders within the chosen time slot. However, slight delays may occur due to traffic, weather, or unforeseen conditions. If we failed to deliver on your choosen time slot, you will get refund of your delivery charges.<br/>
