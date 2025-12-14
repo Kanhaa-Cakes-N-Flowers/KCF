@@ -6,6 +6,7 @@ import ItemDiscription from "./ItemDiscription";
 import Minus from '../src/Images/Icons/Minus-Icon.jpg'
 import Plus from '../src/Images/Icons/Plus-Icon.jpg'
 import qrCode from '../src/Images/QR Code/Kanhaa QR.jpg'
+import logo from '../src/Images/Logo/Kanhaa Cake N Flowers Logo.png'
 import jsPDF from 'jspdf';
 
 import { useState,useEffect, useMemo } from 'react';
@@ -174,11 +175,31 @@ const CartPage = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,updateCart
             const marginY = 15;
             let y = marginY;
 
+            // Add logo at top right corner
+            try {
+                const logoInfo = await convertImageToDataURL(logo);
+                if (logoInfo) {
+                    const logoSize = 20; // Logo height in mm
+                    const logoX = marginX;
+                    const logoY = 3;
+                    const logoRatio = logoInfo.width / logoInfo.height;
+                    const logoWidth = logoSize * logoRatio;
+                    doc.addImage(logoInfo.dataUrl, 'PNG', logoX, logoY, logoWidth, logoSize);
+                }
+            } catch (error) {
+                console.warn('Failed to load logo:', error);
+            }
+
             // 1. TITLE SECTION
             doc.setFontSize(22);
             doc.setFont(undefined, 'bold');
             doc.text('Kanhaa Cakes - Order Details', pageWidth / 2, y, { align: 'center' });
-            y += 15; // Reduced from 30
+            y+= 4;
+
+            doc.setFontSize(10);
+            doc.setFont(undefined,'normal');
+            doc.text('Send this pdf to us on Whatsapp to place your order',pageWidth/2,y,{align:'center'});
+            y += 12; // Reduced from 30
 
             // 2. DELIVERY DETAILS SECTION
             doc.setFontSize(18);
@@ -198,7 +219,7 @@ const CartPage = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,updateCart
             const addDeliveryDetail = (label, value, isLeft) => {
                 const text = `${label}: ${value || ''}`.trim();
                 const lines = doc.splitTextToSize(text, colWidth);
-                const blockHeight = lines.length * 6 + 2; // Reduced from 4
+                const blockHeight = lines.length * 5 + 2; // Reduced from 4
                 
                 if (isLeft) {
                     if (yLeft + blockHeight > pageHeight - marginY - 50) {
@@ -260,7 +281,7 @@ const CartPage = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,updateCart
             doc.setFontSize(16);
             doc.setFont(undefined, 'bold');
             doc.text(`Total Amount: Rs. ${grandTotal.toFixed(2)}`, marginX, y);
-            y += 15; // Reduced from 25
+            y += 10; // Reduced from 25
 
             // Check if we need a page break before items
             if (y > pageHeight - marginY - 100) {
@@ -698,7 +719,7 @@ const CartPage = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,updateCart
                 <label className='label-head'>Message on Card (optional)</label>
                 <textarea
                     className="input-delivery"
-                    placeholder="Enter a short message to be printed on the card"
+                    placeholder="Enter a short message to be printed (Do not include emoji)"
                     maxLength={300}
                     value={cardMessage}
                     onChange={(e) => setCardMessage(e.target.value)}
@@ -748,7 +769,7 @@ const CartPage = ({switchPage,wishlist,toggleWishlist,cart,toggleCart,updateCart
 
             </div>
             <div className='instruction'>
-                Click on <span> Download PDF Button </span>to download your order summary and send this to us on <a href="https://wa.me/7992419378/">Whatsapp: +91 7992419378 </a>
+                Click on <span> Download PDF Button </span>to download your order summary and send this pdf to us on <a href="https://wa.me/7992419378/">Whatsapp: +91 7992419378 </a>
             </div>
             
             <button className={`${acceptTnC && confirmDetails ? "download-pdf-btn" : "download-pdf-btn-disabled"}`} onClick={acceptTnC && confirmDetails ? generatePDF :() => setShowCheckboxError(true)}>
